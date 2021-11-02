@@ -94,19 +94,23 @@
       <h2 class="display-4 mt-5">
         <small>2.2</small> Setting one column width
       </h2>
+      <p>
+        *col-[1 to 12] specifies the number of columns to occupy, while only col
+        will adjust itself in whatever remaining space.
+      </p>
 
       <div class="container bg-info">
         <!-- row -->
         <div class="row">
           <div class="col border p-2">1 of 3</div>
           <!-- col-6 -->
-          <div class="border p-2">2 of 3 (wider)</div>
+          <div class="col-6 border p-2">2 of 3 (wider)</div>
           <div class="col border p-2">3 of 3</div>
         </div>
         <div class="row">
           <div class="col border p-2">1 of 3</div>
           <!-- col-5  -->
-          <div class="border p-2">2 of 3 (wider)</div>
+          <div class="col-5 border p-2">2 of 3 (wider)</div>
           <div class="col border p-2">3 of 3</div>
         </div>
       </div>
