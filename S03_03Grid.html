@@ -18,6 +18,7 @@
     />
     <title>Bootstrap Grid system</title>
   </head>
+
   <body>
     <header>
       <h1 class="text-center display-1">
@@ -31,19 +32,20 @@
         <small>1.</small> What is the Grid system ?
       </h2>
       <p>A powerful mobile-first and flexible grid to build layouts</p>
+      <p>*row, col</p>
 
       <!-- Example -->
 
       <div class="card p-3 bg-light">
         <div class="container">
           <!-- row -->
-          <div class="">
+          <div class="row">
             <!-- col -->
-            <div class="p-2 bg-danger">Column-1</div>
+            <div class="col p-2 bg-danger">Column-1</div>
             <!-- col -->
-            <div class="p-2 bg-warning">Column-2</div>
+            <div class="col p-2 bg-warning">Column-2</div>
             <!-- col -->
-            <div class="p-2 bg-info">Column-3</div>
+            <div class="col p-2 bg-info">Column-3</div>
           </div>
         </div>
       </div>
@@ -63,23 +65,27 @@
       <!--todo: Equal-width -->
 
       <h2 class="display-4 mt-5"><small>2.1</small> Equal-width</h2>
+      <p>
+        *Grid is a 12 column system. Will be distributed equally among the
+        column classes defined.
+      </p>
 
       <div class="container bg-warning">
         <!-- row -->
-        <div class="">
+        <div class="row">
           <!-- col -->
-          <div class="border p-2">1 of 2</div>
+          <div class="col border p-2">1 of 2</div>
           <!-- col -->
-          <div class="border p-2">2 of 2</div>
+          <div class="col border p-2">2 of 2</div>
         </div>
         <!-- row -->
-        <div class="">
+        <div class="row">
           <!-- col -->
-          <div class="border p-2">1 of 3</div>
+          <div class="col border p-2">1 of 3</div>
           <!-- col -->
-          <div class="border p-2">2 of 3</div>
+          <div class="col border p-2">2 of 3</div>
           <!-- col -->
-          <div class="border p-2">3 of 3</div>
+          <div class="col border p-2">3 of 3</div>
         </div>
       </div>
 
