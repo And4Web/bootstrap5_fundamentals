@@ -46,7 +46,7 @@
                 class="accordion-button"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="collapseOne"
+                data-bs-target="#collapseOne"
                 aria-expanded="true"
                 aria-controls="collapseOne"
               >
@@ -75,16 +75,16 @@
             </div>
           </div>
           <!-- accordion-item -->
-          <div class="">
+          <div class="accordion-item">
             <!-- accordion-header & id="headingTwo"-->
-            <h2 class="">
+            <h2 class="accordion-header" id="headingTwo">
               <!-- accordion-button collapsed -->
               <button
                 class="accordion-button"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseTwo"
-                aria-expanded="false"
+                aria-expanded="true"
                 aria-controls="collapseTwo"
               >
                 Accordion Item #2
@@ -93,12 +93,12 @@
             <!--  Item to be toggled by the button -->
             <div
               id="collapseTwo"
-              class="accordion-collapse collapse"
+              class="accordion-collapse collapse show"
               aria-labelledby="headingTwo"
               data-bs-parent="#accordionExample"
             >
               <!-- accordion-body -->
-              <div class="">
+              <div class="accordion-body">
                 <strong>This is the second item's accordion body.</strong> It is
                 hidden by default, until the collapse plugin adds the
                 appropriate classes that we use to style each element. These
