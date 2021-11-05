@@ -132,6 +132,10 @@
       <!--todo: Disabled state -->
 
       <h2 class="display-4 mt-5"><small>1.4</small> Disabled state</h2>
+      <p>
+        *Use attribute of "disabled"<br />In a tags use aria-disabled="true"
+        along with class="disabled".
+      </p>
 
       <div class="card p-3 bg-light">
         <div class="container">
@@ -140,7 +144,7 @@
             Primary button
           </button>
           <button type="button" class="btn btn-secondary btn-lg" disabled>
-            Button
+            Disabled Button
           </button>
           <!-- todo: using <a> -->
           <!-- aria-disabled="true" -->
@@ -156,6 +160,7 @@
           <a
             href="#"
             class="btn btn-secondary btn-lg disabled"
+            aria-disabled="true"
             tabindex="-1"
             role="button"
             >Link</a
