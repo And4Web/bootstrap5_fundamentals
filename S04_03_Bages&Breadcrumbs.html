@@ -75,13 +75,28 @@
       <!--todo: Badges Positioned -->
 
       <h2 class="display-4 mt-5"><small>1.3</small> Positioned</h2>
+      <p>
+        * for button, class="position-relative"<br />for badge inside span tag:
+        class=" badge position-absolute top-0 start-100 translate-middle
+        bg-danger " <br />*to hide the messages in the badge:
+        class="visually-hidden"
+      </p>
 
       <div class="card p-3 bg-light">
         <div class="container mb-3">
           <!-- position-relative -->
-          <button type="button" class="btn btn-primary">
+          <button type="button" class="btn btn-primary position-relative">
             Inbox
-            <span class="">
+            <span
+              class="
+                badge
+                position-absolute
+                top-0
+                start-100
+                translate-middle
+                bg-danger
+              "
+            >
               99+
               <span class="visually-hidden">unread messages</span>
             </span>
@@ -90,10 +105,19 @@
 
         <div class="container">
           <!--  -->
-          <button type="button" class="btn btn-primary">
+          <button type="button" class="btn btn-primary position-relative">
             Profile
-            <span class="">
-              <span class="visually-hidden">New alerts</span>
+            <span
+              class="
+                badge
+                position-absolute
+                top-0
+                start-100
+                translate-middle
+                bg-warning
+              "
+            >
+              <span class="">New alerts</span>
             </span>
           </button>
         </div>
