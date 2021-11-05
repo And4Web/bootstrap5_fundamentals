@@ -173,27 +173,28 @@
       <!--todo: Breadcrumb Example  -->
 
       <h2 class="display-3 mt-5"><small>2.</small> Breadcrumb</h2>
+      <p>*Breadcrumbs indicate where you are on the page.</p>
 
       <h2 class="display-4 mt-5"><small>2.1</small> Example:</h2>
 
       <div class="card p-3 bg-light">
         <!-- aria-label="breadcrumb" -->
-        <nav>
+        <nav aria-label="breadcrumb">
           <!-- breadcrumb -->
-          <ol class="">
+          <ol class="breadcrumb">
             <!-- breadcrumb-item active & aria-current="page"-->
-            <li class="">Home</li>
+            <li class="breadcrumb-item active" aria-current="page">Home</li>
           </ol>
         </nav>
 
         <!-- breadcrumb -->
-        <nav aria-label="">
+        <nav aria-label="breadcrumb">
           <!-- breadcrumb -->
-          <ol class="">
+          <ol class="breadcrumb">
             <!-- breadcrumb-item -->
-            <li class=""><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
             <!-- active -->
-            <li class="breadcrumb-item" aria-current="page">Library</li>
+            <li class="active breadcrumb-item" aria-current="page">Library</li>
           </ol>
         </nav>
 
@@ -202,7 +203,7 @@
             <li class="breadcrumb-item"><a href="#">Home</a></li>
             <li class="breadcrumb-item"><a href="#">Library</a></li>
             <!-- active -->
-            <li class="breadcrumb-item" aria-current="page">Data</li>
+            <li class="active breadcrumb-item" aria-current="page">Data</li>
           </ol>
         </nav>
       </div>
