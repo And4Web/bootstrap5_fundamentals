@@ -245,7 +245,11 @@
         <!-- Mixed styles -->
         <div class="container mb-3">
           <!-- btn-group -->
-          <div class="" role="group" aria-label="Basic mixed styles example">
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic mixed styles example"
+          >
             <button type="button" class="btn btn-danger">Left</button>
             <button type="button" class="btn btn-warning">Middle</button>
             <button type="button" class="btn btn-success">Right</button>
@@ -254,12 +258,16 @@
         <!-- Outline styles -->
         <div class="container">
           <!-- btn-group -->
-          <div class="" role="group" aria-label="Basic outlined example">
-            <button type="button" class="btn btn-outline-primary">Left</button>
-            <button type="button" class="btn btn-outline-primary">
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic outlined example"
+          >
+            <button type="button" class="btn btn-outline-danger">Left</button>
+            <button type="button" class="btn btn-outline-warning">
               Middle
             </button>
-            <button type="button" class="btn btn-outline-primary">Right</button>
+            <button type="button" class="btn btn-outline-success">Right</button>
           </div>
         </div>
       </div>
@@ -270,6 +278,10 @@
       <h2 class="display-4 mt-5">
         <small>2.3</small> Checkbox and radio button groups
       </h2>
+      <p>
+        *inside input tag: type="checkbox" class="btn-check" id="btncheck1"
+        autocomplete="off"
+      </p>
 
       <div class="card p-3 bg-light">
         <!-- Check button group -->
@@ -280,7 +292,12 @@
             aria-label="Basic checkbox toggle button group"
           >
             <!-- type="checkbox" class="btn-check"id="btncheck1" autocomplete="off" -->
-            <input />
+            <input
+              type="checkbox"
+              class="btn-check"
+              id="btncheck1"
+              autocomplete="off"
+            />
             <label class="btn btn-outline-primary" for="btncheck1"
               >Checkbox 1</label
             >
