@@ -77,6 +77,14 @@
       <!--todo: Collapse  -->
 
       <h2 class="display-4 mt-5"><small>1.</small> Collapse</h2>
+      <p>
+        *for a tag:<br />class="btn btn-primary" data-bs-toggle="collapse"
+        href="#collapseExample" role="button" aria-expanded="false"
+        aria-controls="collapseExample"<br />for button tag:<br />class="btn
+        btn-primary" type="button" data-bs-toggle="collapse"
+        data-bs-target="#collapseExample" aria-expanded="false"
+        aria-controls="collapseExample"
+      </p>
 
       <div class="card m-3 p-2">
         <!--  example -->
@@ -84,9 +92,11 @@
         <p>
           <a
             class="btn btn-primary"
-            data-bs-toggle=""
+            data-bs-toggle="collapse"
             href="#collapseExample"
             role="button"
+            aria-expanded="false"
+            aria-controls="collapseExample"
           >
             Link with href
           </a>
@@ -95,6 +105,8 @@
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#collapseExample"
+            aria-expanded="false"
+            aria-controls="collapseExample"
           >
             Button with data-bs-target
           </button>
