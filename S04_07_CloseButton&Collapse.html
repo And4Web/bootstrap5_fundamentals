@@ -129,7 +129,8 @@
         *A button or an a tag can hide multiple elements by referencing them
         with a selector in it's fref or data-bs-target attribute.<br />Multiple
         buttons and multiple a tags can show and hide an element if they each
-        reference it with their href or data-bs-target.
+        reference it with their href or data-bs-target.<br />class="collapse
+        multi-collapse" id="multiCollapseExample[1/2]
       </p>
 
       <div class="card m-3 p-2">
@@ -140,6 +141,7 @@
             href="#multiCollapseExample1"
             role="button"
             aria-expanded="false"
+            aria-controls="multipleCollapseExample1"
             >Toggle first element</a
           >
           <button
@@ -148,6 +150,7 @@
             data-bs-toggle="collapse"
             data-bs-target="#multiCollapseExample2"
             aria-expanded="false"
+            aria-controls="multipleCollapseExample2"
           >
             Toggle second element
           </button>
@@ -157,6 +160,7 @@
             data-bs-toggle="collapse"
             data-bs-target=".multi-collapse"
             aria-expanded="false"
+            aria-controls="multipleCollapseExample1 multipleCollapseExample1"
           >
             Toggle both elements
           </button>
@@ -164,7 +168,7 @@
         <div class="row">
           <div class="col">
             <!-- collapse multi-collapse &  id="multiCollapseExample1"-->
-            <div class="" id="">
+            <div class="collapse multi-collapse" id="multiCollapseExample1">
               <div class="card card-body">
                 Some placeholder content for the first collapse component of
                 this multi-collapse example. This panel is hidden by default but
@@ -174,7 +178,7 @@
           </div>
           <div class="col">
             <!-- collapse multi-collapse &  id="multiCollapseExample2"-->
-            <div class="" id="">
+            <div class="collapse multi-collapse" id="multiCollapseExample2">
               <div class="card card-body">
                 Some placeholder content for the second collapse component of
                 this multi-collapse example. This panel is hidden by default but
