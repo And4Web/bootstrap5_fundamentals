@@ -18,11 +18,11 @@
     />
     <title>Bootstrap List</title>
   </head>
-  <style>
+  <!-- <style>
     li {
       list-style-type: none;
     }
-  </style>
+  </style> -->
 
   <body data-bs-spy="scroll" data-bs-target="#navbar-example">
     <header>
@@ -34,25 +34,26 @@
       </h1>
     </header>
 
-    < class="container">
+    <!--  class="container" -->
     <!--todo: Simple List  -->
 
     <h2 class="display-4 mt-5"><small>1.</small> Simple List</h2>
+    <p>*class="list-unstyled" to remove list-style-type in bootstrap.</p>
 
     <div class="card m-3 p-2">
       <!-- list-unstyled -->
-      <ul class="bg-warning">
+      <ul class="bg-warning list-unstyled">
         <li>This is a list.</li>
         <li>It appears completely unstyled.</li>
         <li>Structurally, it's still a list.</li>
         <li>However, this style only applies to immediate child elements.</li>
         <li>
-          Nested lists:
-          <ul>
+          <strong class="fs-4">Nested lists</strong>:
+          <ol class="list-unstyled">
             <li>are unaffected by this style</li>
             <li>will still show a bullet</li>
             <li>and have appropriate left margin</li>
-          </ul>
+          </ol>
         </li>
         <li>This may still come in handy in some situations.</li>
       </ul>
