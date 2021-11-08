@@ -125,14 +125,19 @@
       <!--todo: Disabled items  -->
 
       <h2 class="display-6 mt-5"><small>3.3</small> Disabled items</h2>
+      <p>*class="disabled" & aria-disabled="true</p>
 
       <ul class="list-group">
         <!-- disabled & aria-disabled="true"-->
 
-        <li class="list-group-item">A disabled item</li>
+        <li class="disabled list-group-item" aria-disabled="true">
+          A disabled item
+        </li>
         <li class="list-group-item">A second item</li>
         <li class="list-group-item">A third item</li>
-        <li class="list-group-item">A fourth item</li>
+        <li class="disabled list-group-item" aria-disabled="true">
+          A fourth item - also disabled
+        </li>
         <li class="list-group-item">And a fifth one</li>
       </ul>
 
