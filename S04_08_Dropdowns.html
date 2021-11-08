@@ -38,7 +38,8 @@
         links and what we wish to put in there, they are made interactive with
         the inclusion of bootstrap dropdown Javascript plugin.<br />class="dropdown"<br />class="btn
         btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
-        data-bs-toggle="dropdown" aria-expanded="false"<br />class="dropdown-menu"
+        role="button"[for a tags] data-bs-toggle="dropdown"
+        aria-expanded="false"<br />class="dropdown-menu"
         aria-labelledby="dropdownMenuButton1"<br />class="dropdown-item
       </p>
 
@@ -77,8 +78,9 @@
           <div class="dropdown">
             <!-- dropdown-toggle &  role="button"-->
             <a
-              class="btn btn-secondary"
+              class="btn btn-secondary dropdown-toggle"
               href="#"
+              role="button"
               id="dropdownMenuLink"
               data-bs-toggle="dropdown"
               aria-expanded="false"
@@ -86,13 +88,13 @@
               Dropdown link
             </a>
             <!-- dropdown-menu -->
-            <ul class="" aria-labelledby="dropdownMenuLink">
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <!-- dropdown-item -->
-              <li><a class="" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Action</a></li>
               <!-- dropdown-item -->
-              <li><a class="" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
               <!-- dropdown-item -->
-              <li><a class="" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
           </div>
         </div>
