@@ -37,8 +37,18 @@
       <!--todo: Popovers Example  -->
 
       <h2 class="display-4 mt-5"><small>1.</small> Example</h2>
+      <p>
+        *title and content are necessary to show popovers, without both of
+        theses attrributes, popover will not be shown.
+      </p>
 
-      <button type="button" class="btn btn-lg btn-danger">
+      <button
+        type="button"
+        class="btn btn-lg btn-danger"
+        data-bs-toggle="popover"
+        title="Popover Title"
+        data-bs-content="This is the popover content. It uses bootstrap attributes."
+      >
         Click to toggle popover
       </button>
 
