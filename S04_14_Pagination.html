@@ -30,33 +30,38 @@
     </header>
     <p class="ms-5 p-2">
       *Pagination indicates a series of related content that exists across
-      multiple pages.
+      multiple pages.<br />
+      It basically uses navBar.
     </p>
 
     <div class="container">
       <!--todo: Example  -->
 
       <h2 class="display-4 mt-5"><small>1.</small> Example</h2>
+      <p>
+        *class="pagination"<br />
+        class="page-item"<br />class="page-link "<br />
+      </p>
 
       <div class="card m-3 p-2">
         <!-- Complete pagination example -->
 
         <nav aria-label="Page navigation example">
           <!-- pagination -->
-          <ul class="">
+          <ul class="pagination">
             <!-- page-item -->
-            <li class="">
+            <li class="page-item">
               <!-- page-link -->
-              <a class="" href="#">Previous</a>
+              <a class="page-link" href="#">Previous</a>
             </li>
             <!-- page-item -->
-            <li class="">
+            <li class="page-item">
               <!-- page-link -->
-              <a class="" href="#">1</a>
+              <a class="page-link" href="#">1</a>
             </li>
-            <li class=""><a class="" href="#">2</a></li>
-            <li class=""><a class="" href="#">3</a></li>
-            <li class=""><a class="" href="#">Next</a></li>
+            <li class="page-link"><a class="" href="#">2</a></li>
+            <li class="page-link"><a class="" href="#">3</a></li>
+            <li class="page-link"><a class="" href="#">Next</a></li>
           </ul>
         </nav>
       </div>
@@ -64,6 +69,7 @@
       <!--todo: Working with icons  -->
 
       <h2 class="display-4 mt-5"><small>2.</small>Using Icons</h2>
+      <p>*HTML icon Source: https://www.w3schools.com/html/html_symbols.asp</p>
 
       <div class="card m-3 p-2">
         <!-- Complete pagination example -->
@@ -74,7 +80,7 @@
             <li class="page-item">
               <a class="page-link" href="#" aria-label="Previous">
                 <!-- &laquo -->
-                <span aria-hidden="true"></span>
+                <span aria-hidden="true">&laquo</span>
               </a>
             </li>
             <li class="page-item"><a class="page-link" href="#">1</a></li>
@@ -83,7 +89,7 @@
             <li class="page-item">
               <a class="page-link" href="#" aria-label="Next">
                 <!--  &raquo; -->
-                <span aria-hidden="true"></span>
+                <span aria-hidden="true"> &raquo</span>
               </a>
             </li>
           </ul>
