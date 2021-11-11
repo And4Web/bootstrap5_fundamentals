@@ -39,7 +39,8 @@
       <h2 class="display-4 mt-5"><small>1.</small> Example</h2>
       <p>
         *title and content are necessary to show popovers, without both of
-        theses attrributes, popover will not be shown.
+        theses attrributes, popover will not be shown.<br />data-bs-toggle="popover"
+        title="Popover Title" data-bs-content="..."
       </p>
 
       <button
@@ -55,18 +56,19 @@
       <!--todo: Four directions  -->
 
       <h2 class="display-4 mt-5"><small>2.</small>Four directions</h2>
+      <p>*data-bs-placement="top/bottom/right/left"</p>
 
       <!-- top  -->
       <div
-        class="d-flex flex-column justify-content-around"
+        class="d-flex flex-column justify-content-around align-items-center"
         style="height: 500px"
       >
         <button
           type="button"
-          class="btn btn-secondary"
+          class="btn btn-secondary w-50"
           data-bs-container="body"
           data-bs-toggle="popover"
-          data-bs-placement=""
+          data-bs-placement="top"
           data-bs-content="Top popover"
         >
           Popover on top
@@ -75,10 +77,10 @@
         <!-- right -->
         <button
           type="button"
-          class="btn btn-info"
+          class="btn btn-info w-50"
           data-bs-container="body"
           data-bs-toggle="popover"
-          data-bs-placement=""
+          data-bs-placement="right"
           data-bs-content="Right popover"
         >
           Popover on right
@@ -86,10 +88,10 @@
         <!-- bottom -->
         <button
           type="button"
-          class="btn btn-warning"
+          class="btn btn-warning w-50"
           data-bs-container="body"
           data-bs-toggle="popover"
-          data-bs-placement=""
+          data-bs-placement="bottom"
           data-bs-content="Bottom popover"
         >
           Popover on bottom
@@ -97,10 +99,10 @@
         <!-- left -->
         <button
           type="button"
-          class="btn btn-success"
+          class="btn btn-success w-50"
           data-bs-container="body"
           data-bs-toggle="popover"
-          data-bs-placement=""
+          data-bs-placement="left"
           data-bs-content="Left popover"
         >
           Popover on left
