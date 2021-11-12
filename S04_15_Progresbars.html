@@ -256,7 +256,10 @@
       <!--todo: Striped  -->
 
       <h2 class="display-4 mt-5"><small>4.</small> Striped</h2>
-      <p>*class="progress-bar progress-bar-striped"</p>
+      <p>
+        *class="progress-bar progress-bar-striped"<br />class="progress-bar
+        progress-bar-striped progress-bar-animated"
+      </p>
 
       <div class="card">
         <div class="progress m-2">
@@ -276,37 +279,43 @@
         <div class="progress m-2">
           <!--progress-bar-striped bg-info -->
           <div
-            class="progress-bar"
+            class="progress-bar progress-bar-striped bg-info text-danger"
             role="progressbar"
             style="width: 50%"
             aria-valuenow="50"
             aria-valuemin="0"
             aria-valuemax="100"
-          ></div>
+          >
+            bg-info
+          </div>
         </div>
 
         <div class="progress m-2">
           <!-- progress-bar-striped bg-warning -->
           <div
-            class="progress-bar"
+            class="progress-bar progress-bar-striped bg-warning text-dark"
             role="progressbar"
             style="width: 75%"
             aria-valuenow="75"
             aria-valuemin="0"
             aria-valuemax="100"
-          ></div>
+          >
+            bg-warning
+          </div>
         </div>
 
         <div class="progress m-2">
           <!-- progress-bar-striped bg-danger -->
           <div
-            class="progress-bar"
+            class="progress-bar progress-bar-striped bg-danger"
             role="progressbar"
             style="width: 100%"
             aria-valuenow="100"
             aria-valuemin="0"
             aria-valuemax="100"
-          ></div>
+          >
+            progress-bar-striped bg-danger
+          </div>
         </div>
 
         <!--todo: Animated stripes -->
@@ -314,13 +323,15 @@
         <div class="progress m-2">
           <!-- progress-bar-striped progress-bar-animated -->
           <div
-            class="progress-bar"
+            class="progress-bar progress-bar-striped progress-bar-animated"
             role="progressbar"
             aria-valuenow="75"
             aria-valuemin="0"
             aria-valuemax="100"
             style="width: 75%"
-          ></div>
+          >
+            progress-bar-striped progress-bar-animated
+          </div>
         </div>
       </div>
 
