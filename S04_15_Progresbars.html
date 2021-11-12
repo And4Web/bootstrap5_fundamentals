@@ -33,32 +33,37 @@
       <!--todo: Progress  -->
 
       <h2 class="display-4 mt-5"><small>1.</small> Example</h2>
+      <p>
+        *class="progress"<br />class="progress-bar" role="progressbar"
+        style="width: 95%" aria-valuemin="0" aria-valuemax="100"
+        aria-valuenow="85"<br />
+      </p>
 
       <div class="card m-3 p-2">
         <!-- progress -->
-        <div class="m-3">
+        <div class="progress m-3">
           <!-- progress-bar -->
-          <div class=""></div>
-        </div>
-        <div class="progress m-3">
           <div
             class="progress-bar"
             role="progressbar"
-            style="width: 25%"
-            aria-valuenow="25"
+            style="width: 95%"
             aria-valuemin="0"
             aria-valuemax="100"
+            aria-valuenow="85"
           ></div>
         </div>
         <div class="progress m-3">
           <div
             class="progress-bar"
             role="progressbar"
-            style="width: 50%"
-            aria-valuenow="50"
+            style="width: 45%"
+            aria-valuenow="35"
             aria-valuemin="0"
             aria-valuemax="100"
           ></div>
+        </div>
+        <div class="progress m-3">
+          <div class="progress-bar" role="progressbar" style="width: 50%"></div>
         </div>
         <div class="progress m-3">
           <div
@@ -83,12 +88,14 @@
         <!-- Utility settings  -->
         <div class="progress m-3">
           <div
-            class="progress-bar w-75"
+            class="progress-bar w-25"
             role="progressbar"
             aria-valuenow="75"
             aria-valuemin="0"
             aria-valuemax="100"
-          ></div>
+          >
+            this is using w-25 utility. style attribute not used.
+          </div>
         </div>
       </div>
 
