@@ -1,3 +1,12 @@
 .bg-dark-transparent {
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+.text-fb {
+  background-color: transparent;
+  color: royalblue;
+}
+.text-li {
+  background-color: transparent;
+  color: blue;
+}
